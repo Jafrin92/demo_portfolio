@@ -1,0 +1,846 @@
+/* Extra extra large device start   */
+@media (max-width: 1400px) {
+  /* Services area start  */
+  .services_heading .paragraph {
+    padding: 0 70px;
+  }
+  /* Services area end  */
+
+  /* about area start  */
+  .about_content .main_heading {
+    padding-right: 160px;
+  }
+
+  .about_content .paragraph {
+    padding-right: 70px;
+  }
+  /* about area end  */
+
+  /* protfolio area start  */
+  .protfolio_para .paragraph {
+    padding-right: 80px;
+  }
+  /* protfolio area end  */
+
+  /* Testimonial area start  */
+  .testimonial_heading .paragraph {
+    padding: 0 35px;
+  }
+
+  .testimonial_item p {
+    padding-right: 45px;
+  }
+  /* Testimonial area end  */
+
+  /* CTA area start  */
+  .cta_content h2 {
+    padding: 0 55px;
+    padding-bottom: 19px;
+  }
+  /* CTA area end  */
+}
+/* Extra extra large device end   */
+
+/* Extra large device start   */
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  /* common css start  */
+  .sec_heading {
+    font-size: 42px;
+  }
+  /* common css end */
+
+  /* Services area start  */
+  .services_heading .paragraph {
+    padding: 0 40px;
+  }
+  /* Services area end  */
+
+  /* About area start  */
+  .about_content .main_heading {
+    padding-right: 50px;
+  }
+
+  .about_content .paragraph {
+    padding-right: 0;
+  }
+  /* About area end  */
+
+  /* protfolio area start  */
+  .protfolio_para .paragraph {
+    padding-right: 64px;
+  }
+  /* protfolio area end  */
+
+  /* Testimonial area start  */
+  .testimonial_heading .paragraph {
+    padding: 0;
+  }
+
+  .testimonial_item p {
+    padding-right: 0;
+  }
+  /* Testimonial area end  */
+
+  /* CTA area start  */
+  .cta_content h2 {
+    padding: 0;
+    padding-bottom: 19px;
+  }
+  /* CTA area end  */
+}
+/* Extra large device end   */
+
+/* Large device start   */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* common css start  */
+  .main_heading {
+    font-size: 50px;
+  }
+
+  .sec_heading {
+    font-size: 34px;
+  }
+  /* common css end */
+
+  /* Services area start  */
+  .services_heading .paragraph {
+    padding: 0;
+  }
+
+  .services_item {
+    padding: 30px;
+  }
+  /* Services area end  */
+
+  /* About area start  */
+  .about_images img {
+    top: 90px;
+  }
+  /* About area end  */
+
+  /* Brand area start  */
+  #brand {
+    padding-top: 66px;
+    padding-bottom: 43px;
+  }
+
+  .res_brand {
+    row-gap: 22px;
+  }
+  /* Brand area end  */
+
+  /* protfolio area start  */
+  .protfolio_para .paragraph {
+    padding-right: 0px;
+  }
+  /* protfolio area end  */
+
+  /* Footer are start  */
+  .footer_menu ul {
+    column-gap: 30px;
+  }
+  /* Footer are end  */
+}
+/* Large device end   */
+
+/* Medium device start   */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* common css start  */
+  .main_heading {
+    font-size: 44px;
+    line-height: 64px;
+  }
+
+  .sec_heading {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .banner_content,
+  .about_content,
+  .protfolio_heading,
+  .protfolio_para {
+    text-align: center;
+  }
+  /* common css end */
+
+  /* Navbar area start  */
+  .offcan_res .btn i {
+    color: black;
+  }
+
+  .btn-close:focus {
+    box-shadow: none;
+  }
+
+  .offcan_res .btn:first-child:active {
+    color: white;
+    border-color: transparent;
+  }
+
+  .nav-item {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .nav_btn .common_btn {
+    padding: 8px 18px;
+  }
+  /* Navbar area end  */
+
+  /* Banner area start  */
+  #banner {
+    padding-top: 37px;
+    padding-bottom: 26px;
+  }
+
+  .banner_content .main_heading {
+    padding-top: 21px;
+    padding-bottom: 20px;
+  }
+
+  .banner_btn {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner_btn .banner_download {
+    margin-top: 25px;
+    margin-bottom: 46px;
+  }
+  /* Banner area end  */
+
+  /* Counter area start  */
+  #counter {
+    padding-top: 14px;
+    padding-bottom: 45px;
+  }
+
+  .counter_item {
+    margin-top: 50px;
+  }
+  /* Counter area end  */
+
+  /* Services area start  */
+  #services {
+    padding-top: 28px;
+    padding-bottom: 34px;
+  }
+
+  .services_heading {
+    margin-bottom: 27px;
+  }
+
+  .services_heading .paragraph {
+    margin-top: 6px;
+  }
+
+  .services_item {
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+  .services_item h3 {
+    padding-top: 35px;
+  }
+  /* Services area end  */
+
+  /* About area start  */
+  #about {
+    padding: 80px 0;
+    background-image: url("../images/responsive_about.jpg");
+  }
+
+  .about_content .main_heading {
+    padding-right: 0;
+    padding-top: 14px;
+    padding-bottom: 0;
+  }
+
+  .about_content .paragraph {
+    padding: 0 40px 14px 40px;
+  }
+
+  .about_btn {
+    justify-content: center;
+  }
+  /* About area end  */
+
+  /* Brand area start  */
+  #brand {
+    padding-top: 66px;
+    padding-bottom: 43px;
+  }
+
+  .res_brand {
+    row-gap: 22px;
+  }
+  /* Brand area end  */
+
+  /* protfolio area start  */
+  #protfolio {
+    padding-top: 26px;
+    padding-bottom: 64px;
+  }
+
+  .protfolio_heading .sec_subheading::after {
+    left: 50%;
+  }
+
+  .protfolio_para .paragraph {
+    padding: 10px 70px 0 70px;
+  }
+
+  .protfolio_wrapper {
+    margin-top: 30px;
+  }
+
+  .protfolio_item .protfolio_item_text {
+    padding: 21px 20px 35px 20px;
+  }
+
+  .protfolio_item .protfolio_item_text h6 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  /* protfolio area end  */
+
+  /* Testimonial area start  */
+  .testimonial_bg {
+    padding-top: 115px;
+    padding-bottom: 120px;
+  }
+
+  .testimonial_heading .sec_heading {
+    padding-bottom: 19px;
+  }
+
+  .testimonial_heading .paragraph {
+    padding: 0 50px;
+  }
+
+  .review_box {
+    margin-top: -94px;
+  }
+
+  .testimonial_item {
+    padding: 38px 30px;
+  }
+  /* Testimonial area end  */
+
+  /* CTA area start  */
+  #cta {
+    padding: 64px 0;
+  }
+
+  .cta_bg {
+    background: url("../images/responsive_cta.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 73px;
+    padding-bottom: 91px;
+  }
+
+  .cta_content h2 {
+    padding: 0 40px 19px 40px;
+  }
+  /* CTA area end  */
+
+  /* Footer area start  */
+  #footer {
+    padding-top: 77px;
+    padding-bottom: 40px;
+  }
+
+  .footer_bottom {
+    margin-top: 51px;
+    padding-top: 36px;
+  }
+
+  .footer_menu ul {
+    column-gap: 17px;
+  }
+  /* Footer area end  */
+}
+/* Medium device end   */
+
+/* Small device start   */
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* common css start  */
+  .main_heading {
+    font-size: 44px;
+    line-height: 64px;
+  }
+
+  .sec_heading {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .banner_content,
+  .about_content,
+  .protfolio_heading,
+  .protfolio_para,
+  .footer_content {
+    text-align: center;
+  }
+  /* common css end */
+
+  /* Navbar area start  */
+  .offcan_res .btn i {
+    color: black;
+  }
+
+  .btn-close:focus {
+    box-shadow: none;
+  }
+
+  .offcan_res .btn:first-child:active {
+    color: white;
+    border-color: transparent;
+  }
+
+  .nav-item {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .nav_btn .common_btn {
+    padding: 8px 18px;
+  }
+  /* Navbar area end  */
+
+  /* Banner area start  */
+  #banner {
+    padding-top: 37px;
+    padding-bottom: 26px;
+  }
+
+  .banner_content .main_heading {
+    padding-top: 21px;
+    padding-bottom: 20px;
+  }
+
+  .banner_btn {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner_btn .banner_download {
+    margin-top: 25px;
+    margin-bottom: 46px;
+  }
+  /* Banner area end  */
+
+  /* Counter area start  */
+  #counter {
+    padding-top: 14px;
+    padding-bottom: 45px;
+  }
+
+  .counter_item {
+    margin-top: 50px;
+  }
+  /* Counter area end  */
+
+  /* Services area start  */
+  #services {
+    padding-top: 28px;
+    padding-bottom: 34px;
+  }
+
+  .services_heading {
+    margin-bottom: 27px;
+  }
+
+  .services_heading .paragraph {
+    margin-top: 6px;
+    padding: 0;
+  }
+
+  .services_item {
+    margin-bottom: 30px;
+  }
+
+  .services_item h3 {
+    padding-top: 35px;
+  }
+  /* Services area end  */
+
+  /* About area start  */
+  #about {
+    padding: 80px 0;
+    background-image: url("../images/responsive_about.jpg");
+  }
+
+  .about_content .main_heading {
+    padding-right: 0;
+    padding-top: 14px;
+    padding-bottom: 0;
+  }
+
+  .about_content .paragraph {
+    padding-top: 0;
+    padding-bottom: 14px;
+  }
+
+  .about_btn {
+    justify-content: center;
+  }
+  /* About area end  */
+
+  /* Brand area start  */
+  #brand {
+    padding-top: 66px;
+    padding-bottom: 43px;
+  }
+
+  .res_brand {
+    row-gap: 22px;
+  }
+  /* Brand area end  */
+
+  /* protfolio area start  */
+  #protfolio {
+    padding-top: 26px;
+    padding-bottom: 64px;
+  }
+
+  .protfolio_heading .sec_subheading::after {
+    left: 50%;
+  }
+
+  .protfolio_para .paragraph {
+    padding-right: 0;
+    padding-top: 10px;
+  }
+
+  .protfolio_wrapper {
+    margin-top: 30px;
+  }
+
+  .protfolio_item .protfolio_item_text {
+    padding: 21px 30px 35px 30px;
+  }
+
+  .protfolio_item .protfolio_item_text h6 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  /* protfolio area end  */
+
+  /* Testimonial area start  */
+  .testimonial_bg {
+    padding-top: 115px;
+    padding-bottom: 120px;
+  }
+
+  .testimonial_heading .sec_heading {
+    padding-bottom: 19px;
+  }
+
+  .review_box {
+    margin-top: -94px;
+  }
+
+  .res_testi {
+    row-gap: 30px;
+  }
+  /* Testimonial area end  */
+
+  /* CTA area start  */
+  #cta {
+    padding: 64px 0;
+  }
+  .cta_bg {
+    background: url("../images/responsive_cta.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 73px;
+    padding-bottom: 91px;
+  }
+  /* CTA area end  */
+
+  /* Footer area start  */
+  #footer {
+    padding-top: 77px;
+    padding-bottom: 40px;
+    max-width: 600px;
+  }
+
+  .footer_content .paragraph {
+    padding: 14px 20px 50px 20px;
+  }
+
+  .footer_contact ul {
+    row-gap: 23px;
+  }
+
+  .footer_contact ul li a {
+    justify-content: center;
+  }
+
+  .footer_contact_icon {
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .footer_bottom {
+    margin-top: 51px;
+    padding-top: 36px;
+  }
+
+  .footer_menu ul {
+    column-gap: 17px;
+    justify-content: center;
+  }
+
+  .copy_right p {
+    text-align: center;
+    padding-top: 23px;
+  }
+  /* Footer area end  */
+}
+/* Small device end   */
+
+/* Extra small device start   */
+@media (max-width: 575.99px) {
+  /* common css start  */
+  .main_heading {
+    font-size: 44px;
+    line-height: 64px;
+  }
+
+  .sec_heading {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .banner_content,
+  .about_content,
+  .protfolio_heading,
+  .protfolio_para,
+  .footer_content {
+    text-align: center;
+  }
+  /* common css end */
+
+  /* Navbar area start  */
+  .offcan_res .btn i {
+    color: black;
+  }
+
+  .btn-close:focus {
+    box-shadow: none;
+  }
+
+  .offcan_res .btn:first-child:active {
+    color: white;
+    border-color: transparent;
+  }
+
+  .nav-item {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .nav_btn .common_btn {
+    padding: 8px 18px;
+  }
+  /* Navbar area end  */
+
+  /* Banner area start  */
+  #banner {
+    padding-top: 37px;
+    padding-bottom: 26px;
+  }
+
+  .banner_content .main_heading {
+    padding-top: 21px;
+    padding-bottom: 20px;
+  }
+
+  .banner_btn {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner_btn .banner_download {
+    margin-top: 25px;
+    margin-bottom: 46px;
+  }
+  /* Banner area end  */
+
+  /* Counter area start  */
+  #counter {
+    padding-top: 14px;
+    padding-bottom: 45px;
+  }
+
+  .counter_item {
+    margin-top: 50px;
+  }
+  /* Counter area end  */
+
+  /* Services area start  */
+  #services {
+    padding-top: 28px;
+    padding-bottom: 34px;
+  }
+
+  .services_heading {
+    margin-bottom: 27px;
+  }
+
+  .services_heading .paragraph {
+    margin-top: 6px;
+    padding: 0;
+  }
+
+  .services_item {
+    margin-bottom: 30px;
+  }
+
+  .services_item h3 {
+    padding-top: 35px;
+  }
+  /* Services area end  */
+
+  /* About area start  */
+  #about {
+    padding: 80px 0;
+    background-image: url("../images/responsive_about.jpg");
+  }
+
+  .about_content .main_heading {
+    padding-right: 0;
+    padding-top: 14px;
+    padding-bottom: 0;
+  }
+
+  .about_content .paragraph {
+    padding-top: 0;
+    padding-bottom: 14px;
+  }
+
+  .about_btn {
+    justify-content: center;
+  }
+  /* About area end  */
+
+  /* Brand area start  */
+  #brand {
+    padding-top: 66px;
+    padding-bottom: 43px;
+  }
+
+  .res_brand {
+    row-gap: 22px;
+  }
+  /* Brand area end  */
+
+  /* protfolio area start  */
+  #protfolio {
+    padding-top: 26px;
+    padding-bottom: 64px;
+  }
+
+  .protfolio_heading .sec_subheading::after {
+    left: 50%;
+  }
+
+  .protfolio_para .paragraph {
+    padding-right: 0;
+    padding-top: 10px;
+  }
+
+  .protfolio_wrapper {
+    margin-top: 30px;
+  }
+
+  .protfolio_item .protfolio_item_text {
+    padding: 21px 30px 35px 30px;
+  }
+
+  .protfolio_item .protfolio_item_text h6 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  /* protfolio area end  */
+
+  /* Testimonial area start  */
+  .testimonial_bg {
+    padding-top: 115px;
+    padding-bottom: 120px;
+  }
+
+  .testimonial_heading .sec_heading {
+    padding-bottom: 19px;
+  }
+
+  .review_box {
+    margin-top: -94px;
+  }
+
+  .res_testi {
+    row-gap: 30px;
+  }
+  /* Testimonial area end  */
+
+  /* CTA area start  */
+  #cta {
+    padding: 64px 0;
+  }
+  .cta_bg {
+    background: url("../images/responsive_cta.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 73px;
+    padding-bottom: 91px;
+  }
+  /* CTA area end  */
+
+  /* Footer area start  */
+  #footer {
+    padding-top: 77px;
+    padding-bottom: 40px;
+    max-width: 368px;
+  }
+
+  .footer_content .paragraph {
+    padding: 14px 20px 50px 20px;
+  }
+
+  .footer_contact ul {
+    row-gap: 23px;
+  }
+
+  .footer_contact ul li a {
+    justify-content: center;
+  }
+
+  .footer_contact_icon {
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .footer_bottom {
+    margin-top: 51px;
+    padding-top: 36px;
+  }
+
+  .footer_menu ul {
+    column-gap: 17px;
+    justify-content: center;
+  }
+
+  .copy_right p {
+    text-align: center;
+    padding-top: 23px;
+  }
+  /* Footer area end  */
+}
+/* Extra small device end   */
